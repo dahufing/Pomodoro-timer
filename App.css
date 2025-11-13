@@ -1,0 +1,122 @@
+@font-face {
+  font-family: 'Retrograde-Regular';
+  src: url('./assets/Fondo_pomodoro1.png') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Retrograde-Regular', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.home-container {
+  width: 400px;
+  height: 400px;
+  background-image: url('./assets/Fondo_pomodoro1.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.encouragement-text {
+  font-size: 1.3rem;
+  color: #020202;
+  position: relative;
+  top: 180px;
+  margin-bottom: 0rem;
+  animation: fadeIn 1s ease-in-out;
+  transition: opacity 0.8s ease;
+
+}
+
+.encouragement-text.hidden {
+  opacity: 0;
+}
+
+.background-green {
+  background-image: url('./assets/Fondo_pomodoro2.png');
+}
+
+.home-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 130px;
+  margin: 0;
+}
+
+.image-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.image-button img {
+  width: 100px;
+}
+
+.timer-section {
+  display: flex;
+  flex-direction: row;       /* pone reloj y play en la misma línea */
+  align-items: center;       /* centra verticalmente */
+  justify-content: center;   /* centra todo el bloque dentro del contenedor */
+  gap: 30px;                 /* espacio entre reloj y botón */
+  margin-top: 135px;          /* baja el conjunto si lo quieres más abajo */
+}
+
+.home-timer {
+  font-size: 60px;
+  color: #000000;
+}
+
+.gif-image {
+  height:100px;
+}
+
+.home-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.home-button img {
+  width: 50px;
+}
+
+.close-button {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.close-button img {
+  width: 24px;
+  height: 24px;
+}
