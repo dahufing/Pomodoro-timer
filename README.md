@@ -1,46 +1,41 @@
-# Getting Started with Create React App
+# Pomodoro Timer – React & TypeScript Productivity App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Pomodoro Timer** is a modern web application built with **React** and **TypeScript** that helps users improve focus and productivity by applying the **Pomodoro technique**.  
+It follows the traditional 25/5 cycle: **25 minutes of focused work** followed by a **5-minute break**.  
+All visual assets and illustrations were **hand-drawn by the author**, giving the app a distinctive and personal touch.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## What is the Pomodoro Technique?
 
-### `npm start`
+The Pomodoro Technique, developed by Francesco Cirillo, is a time management method that divides work into short, focused intervals of 25 minutes (called *Pomodoros*) separated by 5-minute breaks.  
+This approach enhances concentration, reduces fatigue, and maintains consistent productivity.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Main Features
 
-### `npm test`
+- Built with **React** and **TypeScript**  
+- **Custom 25/5 Pomodoro timer** with formatted countdown display  
+- **Dynamic encouragement messages** that change throughout the session  
+- **Manual mode switching** between *Work* and *Break*  
+- **Handmade illustrations** for all interface elements  
+- Simple, clean, and responsive interface  
+- Designed for focus and usability  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React (Hooks)** – for UI and component-based logic  
+- **TypeScript** – for type safety and code robustness  
+- **CSS Modules** – for styling and layout  
+- **Vite / Create React App** – as the development environment  
+- **Custom artwork** – original graphics made for this project  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
